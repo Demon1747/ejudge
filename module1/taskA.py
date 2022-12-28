@@ -1,4 +1,5 @@
 # Copyright 2022 Stepanov Dmitriy
+# Task A module 1 -- sum
 
 sum_var = 0
 while True:

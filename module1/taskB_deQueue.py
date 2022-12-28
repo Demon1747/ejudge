@@ -1,4 +1,5 @@
 # Copyright 2022 Stepanov Dmitriy
+# Task B module 1 -- dequeue
 
 # printing deque
 def print_deq(arr, h, t):
@@ -18,13 +19,12 @@ def print_deq(arr, h, t):
             i += 1
 
 
-
 # "main" function
 head = 0          # the index of the beginning of the queue
 tail = 0          # the index of the position after the last deque element
 is_init = False   # init flag
 
-# deque initialisation
+# parsing data and deque initialisation
 while not is_init:
     try:
         input_text = input()
