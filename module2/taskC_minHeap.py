@@ -137,7 +137,7 @@ class MinHeap:
 # Entry point #################################################################
 
 # Creating heap
-minHeap = MinHeap()
+min_heap = MinHeap()
 
 # input data parser
 while True:
@@ -149,23 +149,23 @@ while True:
 
         if len(args) == 3:
             if args[0] == "add":
-                minHeap.add(int(args[1]), args[2])  # add K V
+                min_heap.add(int(args[1]), args[2])  # add K V
             elif args[0] == "set":
-                minHeap.set(int(args[1]), args[2])  # set K V
+                min_heap.set(int(args[1]), args[2])  # set K V
         elif len(args) == 2:
             if args[0] == "delete":
-                minHeap.delete(int(args[1]))  # delete K
+                min_heap.delete(int(args[1]))  # delete K
             elif args[0] == "search":
-                minHeap.search(int(args[1]))  # search K
+                min_heap.search(int(args[1]))  # search K
         elif len(args) == 1:
             if args[0] == "min":
-                minHeap.min()  # min
+                min_heap.min()  # min
             elif args[0] == "max":
-                minHeap.max()  # max
+                min_heap.max()  # max
             elif args[0] == "extract":
-                minHeap.extract()  # extract
+                min_heap.extract()  # extract
             elif args[0] == "print":
-                minHeap.print()  # print
+                min_heap.print()  # print
         else:
             print("error")
 
